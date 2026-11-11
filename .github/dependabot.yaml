@@ -1,22 +1,5 @@
 version: 2
 updates:
-  # update GH actions
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "monthly"
-      time: "02:00"
-      timezone: "Europe/Vienna"
-    commit-message:
-      prefix: "chore"
-      include: "scope"
-    labels:
-      - "dependencies"
-      - "github-actions"
-    groups:
-      github-actions:
-        patterns:
-          - "*"
   - package-ecosystem: "gradle"
     directories:
       - "/"
