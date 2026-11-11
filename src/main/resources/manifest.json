@@ -1,0 +1,23 @@
+{
+    "Group": "",
+    "Name": "",
+    "Version": "1.0.0",
+    "Description": "",
+    "Authors": [
+        
+    ],
+    "Website": "",
+    "ServerVersion": ">=0.7.6",
+    "Dependencies": {
+        
+    },
+    "OptionalDependencies": {
+        
+    },
+    "DisabledByDefault": false,
+    "Main": "net.marcelto.hytale",
+    "IncludesAssetPack": true,
+    "UpdateChecker": {
+        "CurseForge": ""
+    }
+}
